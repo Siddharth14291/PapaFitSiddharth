@@ -13,6 +13,14 @@
 		FC0E290C20C3C36C00199B38 /* PapaFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC0E290A20C3C36C00199B38 /* PapaFit.xcdatamodeld */; };
 		FC0E290E20C3C36E00199B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0E290D20C3C36E00199B38 /* Assets.xcassets */; };
 		FC0E291120C3C36E00199B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0E290F20C3C36E00199B38 /* LaunchScreen.storyboard */; };
+		FC0E291A20C3C49E00199B38 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0E291920C3C49E00199B38 /* CoreData.framework */; };
+		FC0E291C20C3C54600199B38 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E291B20C3C54600199B38 /* PersistenceService.swift */; };
+		FC0E291F20C3C6E400199B38 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E291D20C3C6E400199B38 /* Person+CoreDataClass.swift */; };
+		FC0E292020C3C6E400199B38 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E291E20C3C6E400199B38 /* Person+CoreDataProperties.swift */; };
+		FC21349620C3E0C30070CCFC /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21349520C3E0C30070CCFC /* UpdateViewController.swift */; };
+		FC21349820C3E8D10070CCFC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21349720C3E8D10070CCFC /* DetailViewController.swift */; };
+		FC21349A20C41F840070CCFC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21349920C41F840070CCFC /* AddViewController.swift */; };
+		FC21349C20C42D840070CCFC /* cellName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21349B20C42D840070CCFC /* cellName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		FC0E290D20C3C36E00199B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC0E291020C3C36E00199B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC0E291220C3C36E00199B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0E291920C3C49E00199B38 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC0E291B20C3C54600199B38 /* PersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		FC0E291D20C3C6E400199B38 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FC0E291E20C3C6E400199B38 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FC21349520C3E0C30070CCFC /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		FC21349720C3E8D10070CCFC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FC21349920C41F840070CCFC /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		FC21349B20C42D840070CCFC /* cellName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0E291A20C3C49E00199B38 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,7 @@
 			children = (
 				FC0E290220C3C36C00199B38 /* PapaFit */,
 				FC0E290120C3C36C00199B38 /* Products */,
+				FC0E291820C3C49E00199B38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +76,13 @@
 			children = (
 				FC0E290320C3C36C00199B38 /* AppDelegate.swift */,
 				FC0E290520C3C36C00199B38 /* ViewController.swift */,
+				FC21349520C3E0C30070CCFC /* UpdateViewController.swift */,
+				FC21349920C41F840070CCFC /* AddViewController.swift */,
+				FC21349720C3E8D10070CCFC /* DetailViewController.swift */,
+				FC0E291B20C3C54600199B38 /* PersistenceService.swift */,
+				FC21349B20C42D840070CCFC /* cellName.swift */,
+				FC0E291D20C3C6E400199B38 /* Person+CoreDataClass.swift */,
+				FC0E291E20C3C6E400199B38 /* Person+CoreDataProperties.swift */,
 				FC0E290720C3C36C00199B38 /* Main.storyboard */,
 				FC0E290D20C3C36E00199B38 /* Assets.xcassets */,
 				FC0E290F20C3C36E00199B38 /* LaunchScreen.storyboard */,
@@ -65,6 +90,14 @@
 				FC0E290A20C3C36C00199B38 /* PapaFit.xcdatamodeld */,
 			);
 			path = PapaFit;
+			sourceTree = "<group>";
+		};
+		FC0E291820C3C49E00199B38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0E291920C3C49E00199B38 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +172,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0E290620C3C36C00199B38 /* ViewController.swift in Sources */,
+				FC0E291C20C3C54600199B38 /* PersistenceService.swift in Sources */,
+				FC21349A20C41F840070CCFC /* AddViewController.swift in Sources */,
+				FC0E292020C3C6E400199B38 /* Person+CoreDataProperties.swift in Sources */,
+				FC0E291F20C3C6E400199B38 /* Person+CoreDataClass.swift in Sources */,
 				FC0E290420C3C36C00199B38 /* AppDelegate.swift in Sources */,
+				FC21349620C3E0C30070CCFC /* UpdateViewController.swift in Sources */,
 				FC0E290C20C3C36C00199B38 /* PapaFit.xcdatamodeld in Sources */,
+				FC21349C20C42D840070CCFC /* cellName.swift in Sources */,
+				FC21349820C3E8D10070CCFC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
